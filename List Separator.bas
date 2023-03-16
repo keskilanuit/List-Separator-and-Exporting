@@ -10,7 +10,7 @@ Dim i As Long
 Dim j As Long
 
 On Error Resume Next
-Set inputRange = Application.InputBox("Enter the range of the list to be separated", Type:=8)
+Set inputRange = Application.InputBox("Select the range of data need to be separated", Type:=8)
 On Error GoTo 0
 
 numRows = InputBox("Enter the number of rows per worksheet")
