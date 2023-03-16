@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+
 Sub List_Separator()
 
 Dim inputRange As Range
